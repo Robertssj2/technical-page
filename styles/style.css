@@ -27,7 +27,7 @@ ul {
     margin-left: 50px;
 }
 @media (min-width: 0px) {
-    .body{
+    .body {
         grid-template-columns: auto;
         grid-template-rows: 150px 1fr;
         grid-template-areas:
@@ -42,14 +42,14 @@ ul {
         overflow: auto;
     }
 }
-@media (min-width: 600px) {
-    .body{
-        grid-template-columns: 300px 1fr;
+@media screen and (min-width: 850px) {
+    .body {
+        grid-template-columns: 200px 1fr;
         grid-template-rows: 100vh;
         grid-template-areas:
             "sidebar articles";
     }
-    #main-doc{
+    #main-doc {
         grid-area: articles;
         overflow: auto;
     }
